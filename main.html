@@ -1,8 +1,69 @@
 
-
-
-
 <!DOCTYPE html>
-<html lang="en">    
-    "mon porfolio"
-    
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Bonjour, je suis [Ton Nom]</h1>
+    <p>Étudiant en ingénierie • Data & IA • Passionné par la tech et le sport</p>
+  </header>
+
+  <section id="projets">
+    <h2>Mes Projets</h2>
+    <div class="projets-container">
+      <div class="projet">
+        <h3>Projet 1</h3>
+        <p>Description courte du projet 1.</p>
+        <a href="#">Voir plus</a>
+      </div>
+      <div class="projet">
+        <h3>Projet 2</h3>
+        <p>Description courte du projet 2.</p>
+        <a href="#">Voir plus</a>
+      </div>
+      <div class="projet">
+        <h3>Projet 3</h3>
+        <p>Description courte du projet 3.</p>
+        <a href="#">Voir plus</a>
+      </div>
+      <div class="projet">
+        <h3>Projet 4</h3>
+        <p>Description courte du projet 4.</p>
+        <a href="#">Voir plus</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="cv-reseaux">
+    <h2>CV & Réseaux</h2>
+    <a href="cv.pdf" class="btn" download>Télécharger mon CV</a>
+    <div class="reseaux">
+      <a href="https://github.com/tonpseudo" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/tonprofil" target="_blank">LinkedIn</a>
+      <a href="mailto:tonmail@example.com">Email</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contactez-moi</h2>
+    <form id="contact-form">
+      <input type="text" name="nom" placeholder="Votre nom" required />
+      <input type="email" name="email" placeholder="Votre email" required />
+      <textarea name="message" placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+    <p id="message-confirmation"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - [Ton Nom]</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
